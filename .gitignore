@@ -12,4 +12,12 @@ wordlists/
 *.sqlite
 *.db
 
+# Ignore Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Ignore npm/yarn files
+package-lock.json
+yarn.lock
+
 # End of file
