@@ -1,0 +1,15 @@
+# Repository-level .gitignore
+# Ignore the rockyou wordlist and similar large wordlists that shouldn't be committed
+rockyou.txt
+**/rockyou.txt
+**/rockyou*.txt
+
+# Optional: ignore local downloaded wordlists directory
+wordlists/
+
+# Ignore common sensitive or large files
+*.sql
+*.sqlite
+*.db
+
+# End of file
